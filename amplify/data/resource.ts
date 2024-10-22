@@ -24,7 +24,7 @@ export const data = defineData({
     // defaultAuthorizationMode: "userPool",
     // API Key is used for a.allow.public() rules
     apiKeyAuthorizationMode: {
-      expiresInDays: 1,
+      expiresInDays: 30,
     },
   },
 });
